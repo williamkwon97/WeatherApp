@@ -37,12 +37,11 @@ class ViewController: UIViewController, UISearchBarDelegate {
                            let humidity = Int(weatherMain["humidity"] as? Double ?? 0)
                            let windSpeed = Int(weatherWind["speed"] as? Double ?? 0)
                            let windDirection = Int(weatherWind["deg"] as? Double ?? 0)
-                           let low = Int(weatherMain["temp_min"] as? Double ?? 0)
-                           let high = Int(weatherMain["temp_max"] as? Double ?? 0)
+                          
                            let city = (json["name"] ?? "...")
                            let country = (weatherSystem["country"] ?? "...")
                            DispatchQueue.main.async {
-                               self.setWeather(weather: weatherDetails.first?["main"] as? String, description: description, temp: temp, humidity: humidity, windSpeed: windSpeed, windDirection: windDirection, low: low, high: high, city: city, country: country)
+                               self.setWeather(weather: weatherDetails.first?["main"] as? String,  temp: temp, humidity: humidity, windSpeed: windSpeed, windDirection: windDirection, city: city, country: country)
                            }
                        } catch {
                            print("We had an error retriving the weather...")
@@ -61,11 +60,10 @@ class ViewController: UIViewController, UISearchBarDelegate {
           }
           //MARK SET WEATHER
           func setWeather(weather: String?, description: String?, temp: Int, humidity: Int, windSpeed: Int, windDirection: Int, low: Int, high: Int, city: Any, country: Any) {
-              tempLabel.text = "\(temp)˚"
-              humitidyLabel.text = "Humidity: \(humidity)%"
+              TempLabel.text = "\(temp)˚"
+              HumidityLabel.text = "Humidity: \(humidity)%"
               windLabel.text = "Wind: \(windSpeed) MPH \(compassDirection(heading: Double(windDirection)))"
-              lowLabel.text = "Low: \(low)˚"
-              highLabel.text = "High: \(high)˚"
+    
               place.text = "\(city), \(country)"
               let clear = UIColor(red: 0.94901960784, green: 0.94901960784, blue: 0.16470588235, alpha: 1)
               let cloud =  UIColor(red: 0.68235294117, green: 0.83921568627, blue: 0.94509803921, alpha: 1)
