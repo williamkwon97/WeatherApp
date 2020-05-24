@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E86616024257ADC002F7ECB /* uk669_assignment7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uk669_assignment7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E86616024257ADC002F7ECB /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E86616324257ADC002F7ECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E86616524257ADC002F7ECB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8E86616724257ADC002F7ECB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		8E86615724257ADC002F7ECB = {
 			isa = PBXGroup;
 			children = (
-				8E86616224257ADC002F7ECB /* uk669_assignment7 */,
+				8E86616224257ADC002F7ECB /* WeatherApp */,
 				8E86616124257ADC002F7ECB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		8E86616124257ADC002F7ECB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E86616024257ADC002F7ECB /* uk669_assignment7.app */,
+				8E86616024257ADC002F7ECB /* WeatherApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E86616224257ADC002F7ECB /* uk669_assignment7 */ = {
+		8E86616224257ADC002F7ECB /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
 				8E86616324257ADC002F7ECB /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				8E86617424257AE1002F7ECB /* Info.plist */,
 				8E86616C24257ADC002F7ECB /* uk669_assignment7.xcdatamodeld */,
 			);
-			path = uk669_assignment7;
+			path = WeatherApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E86615F24257ADC002F7ECB /* uk669_assignment7 */ = {
+		8E86615F24257ADC002F7ECB /* WeatherApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E86617724257AE1002F7ECB /* Build configuration list for PBXNativeTarget "uk669_assignment7" */;
+			buildConfigurationList = 8E86617724257AE1002F7ECB /* Build configuration list for PBXNativeTarget "WeatherApp" */;
 			buildPhases = (
 				8E86615C24257ADC002F7ECB /* Sources */,
 				8E86615D24257ADC002F7ECB /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = uk669_assignment7;
+			name = WeatherApp;
 			productName = uk669_assignment7;
-			productReference = 8E86616024257ADC002F7ECB /* uk669_assignment7.app */;
+			productReference = 8E86616024257ADC002F7ECB /* WeatherApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8E86615B24257ADC002F7ECB /* Build configuration list for PBXProject "uk669_assignment7" */;
+			buildConfigurationList = 8E86615B24257ADC002F7ECB /* Build configuration list for PBXProject "WeatherApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E86615F24257ADC002F7ECB /* uk669_assignment7 */,
+				8E86615F24257ADC002F7ECB /* WeatherApp */,
 			);
 		};
 /* End PBXProject section */
@@ -289,12 +289,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = uk669_assignment7/Info.plist;
+				INFOPLIST_FILE = WeatherApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cs329e.uk669-assignment7";
+				PRODUCT_BUNDLE_IDENTIFIER = WeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,12 +306,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = uk669_assignment7/Info.plist;
+				INFOPLIST_FILE = WeatherApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cs329e.uk669-assignment7";
+				PRODUCT_BUNDLE_IDENTIFIER = WeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E86615B24257ADC002F7ECB /* Build configuration list for PBXProject "uk669_assignment7" */ = {
+		8E86615B24257ADC002F7ECB /* Build configuration list for PBXProject "WeatherApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E86617524257AE1002F7ECB /* Debug */,
@@ -330,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E86617724257AE1002F7ECB /* Build configuration list for PBXNativeTarget "uk669_assignment7" */ = {
+		8E86617724257AE1002F7ECB /* Build configuration list for PBXNativeTarget "WeatherApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E86617824257AE1002F7ECB /* Debug */,
