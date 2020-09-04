@@ -2,19 +2,15 @@
 
 ## Privacy Policy
 
-This policy applies to all information collected or submitted on World Weather Sear’s website and our apps for iPhone and any other devices and platforms.
+This policy applies to all information collected or submitted on World Weather Search app for iPhone and any other devices and platforms.
 
 ### Information we collect
 
-We do not collect any data
+We do not collect any datas.
 
 ### Technical basics
 
 Our serverless software and do not store basic technical information, such as your IP address, in temporary memory or logs.
-
-### iCloud
-
-Overcast stores some of your data in Apple’s iCloud service, such as login tokens for your account(s), to enable some sync features between all devices signed into your Apple ID.
 
 ### Ads and analytics
 
