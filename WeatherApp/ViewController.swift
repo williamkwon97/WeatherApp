@@ -47,7 +47,7 @@ class ViewController: UIViewController, UISearchBarDelegate, UITextFieldDelegate
      
            let location = loc
           
-           guard let url = URL(string:"https://api.worldweatheronline.com/premium/v1/weather.ashx?key=c1000961f636421bb5e52941202104&format=json&q=\(location)") else {return}
+           guard let url = URL(string:"https://api.worldweatheronline.com/premium/v1/weather.ashx?key=8e148febdc11430aaa8123448203108&format=json&q=\(location)") else {return}
            
            let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
            
@@ -109,7 +109,9 @@ class ViewController: UIViewController, UISearchBarDelegate, UITextFieldDelegate
               super.viewDidLoad()
               // Do any additional setup after loading the view, typically from a nib.
             
-
+            var imageView = UIImageView(frame: self.view.bounds)
+            imageView = weatherImageView//if its in images.xcassets
+             self.view.frame = UIScreen.main.bounds
           }
           //MARK SET WEATHER
     func errormeesage (){
